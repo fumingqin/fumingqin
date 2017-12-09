@@ -159,9 +159,9 @@ ul, ol {
 	font-weight: bold;
 	font-family: helvetica;
 	text-align:center;
-	background: -webkit-linear-gradient(left, #F4D03F , #fe5d4b);     /* ±³¾°É«½¥±ä */
-	-webkit-background-clip: text;         /* ¹æ¶¨±³¾°µÄ»®·ÖÇøÓò */
-	-webkit-text-fill-color: transparent;  /* ·ÀÖ¹×ÖÌåÑÕÉ«¸²¸Ç */
+	background: -webkit-linear-gradient(left, #F4D03F , #fe5d4b);     /* èƒŒæ™¯è‰²æ¸å˜ */
+	-webkit-background-clip: text;         /* è§„å®šèƒŒæ™¯çš„åˆ’åˆ†åŒºåŸŸ */
+	-webkit-text-fill-color: transparent;  /* é˜²æ­¢å­—ä½“é¢œè‰²è¦†ç›– */
 }
 
 .intro .intro-body .intro-text {
@@ -451,8 +451,12 @@ ol.type li:after {
 	content: ' | ';
 	margin-left: 20px;
 }
+ol.type li:before {
+	content: ' | ';
+	margin-right: 20px;
+}
 ol.type li:last-child:after {
-	content: '';
+	content: '|';
 }
 ol.type li a {
 	color: #444;
